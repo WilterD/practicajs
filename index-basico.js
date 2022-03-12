@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded',function(){
        removeBtn.onclick = function(){
            console.log('borrando fila');
            removeTodo(row.getAttribute('id'));
-           console.log(object);
+           
        }
        row.children[3].appendChild(removeBtn);
         btn.onclick=addTodo;
